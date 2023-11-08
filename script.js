@@ -1,4 +1,4 @@
- const toto = [ 
+const toto = [ 
     {
         "id": 1,
         "name": "Karite  Avocat",
@@ -163,7 +163,7 @@ listCartHTML.addEventListener('click', (event) => {
       let product_id = positionClick.parentElement.getAttribute('data-id'); 
       let type = 'minus';
       if (positionClick.classList.contains('plus')) {
-        type = 'plus';
+        type = 'plus'; 
       }
       changeQuantity(product_id, type);
     }
